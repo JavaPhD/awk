@@ -1,0 +1,51 @@
+$awk 'BEGIN{FS=":"; OFS="|---|"}{print $1,$3,$6}' /etc/passwd | head
+root|---|0|---|/root
+bin|---|1|---|/bin
+daemon|---|2|---|/sbin
+adm|---|3|---|/var/adm
+lp|---|4|---|/var/spool/lpd
+sync|---|5|---|/sbin
+shutdown|---|6|---|/sbin
+halt|---|7|---|/sbin
+mail|---|8|---|/var/spool/mail
+operator|---|11|---|/root
+$
+
+
+
+
+FIELDWIDTHS     Specifies the field width.
+
+RS     Specifies the record separator.
+
+FS     Specifies the field separator, default is space.
+
+OFS  Specifies the Output separator, default is space.
+
+ORS  Specifies the Output separator.
+
+#sometimes, when there is no FS in the file, we may use FIELDWIDTHS intead
+$cat !$
+cat test
+1.345-902
+garyis handsome
+$@@#$@#@---
+$awk 'BEGIN{FIELDWIDTHS="3 4 3"}{print $1,$2,$3}' test
+1.3 45-9 02
+gar yis  han
+$@@ #$@# @--
+
+#if record are seperated by new lines
+$awk 'BEGIN{FS="\n"; RS=""}{print $1,$3}' test
+gary 338517
+michelle 567890
+$cat test
+gary
+8 riversuites
+338517
+
+michelle
+mandarin garden
+567890
+$
+
