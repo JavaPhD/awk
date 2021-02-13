@@ -1,4 +1,5 @@
-#if there is BEGIN, "start reading" will only display once at the beginning
+# if there is BEGIN, "start reading" will only display once at the beginning
+```
 awk -F: 'BEGIN{print "start reading.."}{print $1 " | " $6}' /etc/passwd | head
 start reading..
 root | /root
@@ -11,8 +12,9 @@ shutdown | /sbin
 halt | /sbin
 mail | /var/spool/mail
 $
-
-#if there is no BEGIN, "start reading" will display after every script execution
+```
+# if there is no BEGIN, "start reading" will display after every script execution
+```
 $awk -F: '{print "start reading.."}{print $1 " | " $6}' /etc/passwd | head
 start reading..
 root | /root
@@ -25,4 +27,4 @@ adm | /var/adm
 start reading..
 lp | /var/spool/lpd
 $
-
+```

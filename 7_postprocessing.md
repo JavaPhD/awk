@@ -1,3 +1,5 @@
+# similar to preprocessing, END will show once at the end
+```
 $cat !$
 cat testfile
 BEGIN{
@@ -11,6 +13,8 @@ print $1 " \t " $6
 END{
 print "finished reading"
 }
+```
+```
 $awk -F: -f testfile /etc/passwd | head
 start reading...
 user id 	 home directory
@@ -23,4 +27,4 @@ lp 	 /var/spool/lpd
 sync 	 /sbin
 shutdown 	 /sbin
 $
-
+```

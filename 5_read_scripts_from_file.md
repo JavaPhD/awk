@@ -1,4 +1,5 @@
-#You can put awk scripts in a file
+# awk scripts in a file
+```
 $vi testfile
 $cat !$
 cat testfile
@@ -15,8 +16,10 @@ halt home is /sbin
 mail home is /var/spool/mail
 operator home is /root
 $
+```
 
-#Awk script file can also use local defined variables
+# Awk script file can also use local defined variables
+```
 $cat testfile
 {
 
@@ -36,4 +39,4 @@ halt home is /sbin
 mail home is /var/spool/mail
 operator home is /root
 $
-
+```
