@@ -1,0 +1,64 @@
+##Ansible Fundamentals
+Lesson 1: Taking an Ansible Test-drive (46 min)
+[week 1] Feb 8-14
+[week 2] Feb 15-21
+[week 3] Feb 22-28
+Lesson 2: Understanding Ansible Architecture (16 min)
+[week 4] Mar 1-7
+Lesson 3: Working with Playbooks (37 min)
+[week 5] Mar 8-14
+[week 6] Mar 15-21
+[week 7] Mar 22-28
+Lesson 4: Working with Variables, Inclusions and Task Control (43 min)
+[week 8] Mar 29-Apr 4
+[week 9] Apr 5-11
+[week 10] Apr 12-18
+Lesson 5: Using Flow Control, Conditionals and Jinjia2 Templates (30 min)
+[week 11] Apr 19-25
+[week 12] Apr 26-May 2
+##Automating with Ansible
+
+Module 1: Setting up the Ansible-based DevOps Environment
+Lesson 1:Ansible Basics Getting Started Lab (50 min)
+[week 13] May 3-9
+[week 14] May 10-16
+[week 15] May 17-23
+[week 16] May 24-30
+Lesson 2: Implementing DevOps Using Vagrant with Ansible (44 min)
+[week 17] May 31-Jun 6
+[week 18] June 7-13
+[week 19] June 14-20
+Lesson 3: Managing IT Infrastructure with Ansible (74 min)
+[week 20] June 21-27
+[week 21] June 28-July 4
+[week 22] July 5-11
+[week 23] July 12-18
+[week 24] July 19-25
+Module 2: Advanced Ansible Features
+Lesson 4: Managing Task Control (67 min)
+[week 25] July 26-Aug 1
+[week 26] Aug 2-8
+[week 27] Aug 9-15
+[week 28] Aug 16-22
+[week 29] Aug 23-29
+Lesson 5: Working with Roles (43 min) 
+[week 30] Aug 30-Sep 5
+[week 31] Sep 6-12
+[week 32] Sep 13-19
+Lesson 6: Using Ansible Vault (15 min) 
+[week 33] Sep 20-26
+Module 3: Ansible Optimization and Troubleshooting
+Lesson 7: Optimizing Ansible (40 min)
+[week 34] Sep 27-Oct 3
+[week 35] Oct 4-10
+[week 36] Oct 11-17
+Lesson 8: Troubleshooting Ansible (30 min)
+[week 37] Oct 18-24
+[week 38] Oct 25-31
+Module 4: Ansible Tower
+Lesson 9: Working with Ansible Tower (43 min)
+[week 39] Nov 1-7
+[week 40] Nov 8-14
+[week 41] Nov 15-21
+Module 5: Sample Exam
+Lesson10: Sample Exam
